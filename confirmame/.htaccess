@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /confirmame/
+RewriteCond $1 !^(index\.php|images|stylesheet|javascript|sys_images|dhtmlgoodies_calendar|img|font)
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+# If we don't have mod_rewrite installed, all 404's
+# can be sent to index.php, and everything works as normal.
+# Submitted by: ElliotHaughin
+ErrorDocument 404 /index.php

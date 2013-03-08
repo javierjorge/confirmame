@@ -1,0 +1,501 @@
+@charset "utf-8";
+
+* { position: relative }
+
+html {
+	height: 100%;
+	min-height: 100%;
+}
+
+body {
+	background-image:url(../img/bg/body.jpg);
+	background-repeat:repeat-x;
+	background-color:#f2f2f2;
+	height: 100%;
+	min-height: 100%;
+}
+
+@font-face {
+    font-family: 'MuseoSlab500';
+    src: url(../fonts/museo_slab_500-webfont.eot);
+    src: url(../fonts/museo_slab_500-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/museo_slab_500-webfont.woff) format('woff'),
+         url(../fonts/museo_slab_500-webfont.ttf) format('truetype'),
+         url(../fonts/museo_slab_500-webfont.svg#MuseoSlab500) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header , .content , .footer {
+	margin:0 auto; width:968px;}
+
+.header {
+	background-color:#93ba5e;
+	height:129px;
+	background-image:url(../img/bg/bg-header.png);
+	background-repeat:no-repeat;
+}
+
+.header H1 {
+	font-family: 'MuseoSlab500', Arial;
+	color:#ffffff;
+	font-size:4em;
+	text-decoration:none;	
+	margin-left:5px;	
+	margin-right:10px;
+	font-weight:100;
+}
+
+.header a {
+	font-family: Arial;
+	color:#2f490c;
+	font-size:1.7em;
+	text-decoration:none;
+	margin-left:45px;	
+	margin-right:10px;
+}
+
+.content .inicio {	
+	margin-right:10px;	
+}
+
+.content .inicio .textbox {
+	font-family: Arial;
+	color:#c2c2c2;
+	font-size:1.4em;
+	text-decoration:none;
+	margin-top:10px;
+	margin-left:5px;	
+	margin-right:10px;	
+	font-weight:100;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-style:solid;
+  	border-width:1px; 
+  	height: 25px;
+  	width:252px;
+  	text-margin-left: 10px;
+}
+
+.content .inicio .button {
+	height: 25px;
+  	width:252px;
+	color:#c2c2c2;
+}
+
+.content .inicio H1 {
+	font-family: 'MuseoSlab500', Arial;
+	color:#93ba5e;
+	font-size:2.5em;
+	text-decoration:none;	
+	margin-left:5px;	
+	margin-right:10px;
+	font-weight:100;
+}
+
+.content .inicio H2 {
+	font-family: Arial;
+	color:#c2c2c2;
+	font-size:1.7em;
+	text-decoration:none;
+	margin-left:45px;	
+	margin-right:10px;
+}
+
+
+
+
+
+.content .registro .textbox {
+	font-family: Arial;
+	color:#c2c2c2;
+	font-size:1.4em;
+	text-decoration:none;
+	margin-top:10px;
+	margin-left:5px;	
+	margin-right:10px;	
+	font-weight:100;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-style:solid;
+  	border-width:1px; 
+  	height: 25px;
+  	width:252px;
+  	text-margin-left: 10px;
+}
+
+.content .registro H1 {
+	font-family: 'MuseoSlab500', Arial;
+	color:#93ba5e;
+	font-size:2.5em;
+	text-decoration:none;	
+	margin-left:5px;	
+	margin-right:10px;
+	font-weight:100;
+}
+
+.content .registro H2 {
+	font-family: Arial;
+	color:#c2c2c2;
+	font-size:1.7em;
+	text-decoration:none;
+	margin-left:45px;	
+	margin-right:10px;
+}
+
+.content .registro .button {
+	height: 25px;
+  	width:252px;
+	color:#c2c2c2;
+}
+
+
+.content .contacto .textbox {
+	font-family: Arial;
+	color:#c2c2c2;
+	font-size:1.4em;
+	text-decoration:none;
+	margin-top:10px;
+	margin-left:5px;	
+	margin-right:10px;	
+	font-weight:100;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-style:solid;
+  	border-width:1px; 
+  	height: 25px;
+  	width:252px;
+  	text-margin-left: 10px;
+}
+
+.content .contacto H1 {
+	font-family: 'MuseoSlab500', Arial;
+	color:#93ba5e;
+	font-size:2.5em;
+	text-decoration:none;	
+	margin-left:5px;	
+	margin-right:10px;
+	font-weight:100;
+}
+
+.content .contacto H2 {
+	font-family: Arial;
+	color:#c2c2c2;
+	font-size:1.7em;
+	text-decoration:none;
+	margin-left:45px;	
+	margin-right:10px;
+}
+
+.content .contacto .button {
+	height: 25px;
+  	width:252px;
+	color:#c2c2c2;
+}
+
+.content .contacto .textarea{
+	font-family: Arial;
+	color:#c2c2c2;
+	font-size:1.4em;
+	text-decoration:none;
+	margin-top:10px;
+	margin-left:5px;	
+	margin-right:10px;	
+	font-weight:100;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-style:solid;
+  	border-width:1px; 
+  	width:252px;
+  	text-margin-left: 10px;
+  	
+}
+
+.content .invitaciones .tabla_invitaciones {
+  	
+}
+
+.content .invitaciones .tabla_invitaciones TR:first-child{
+  	background-color:#93ba5e;
+}
+
+.content .invitaciones .tabla_invitaciones TD:first-child{
+  	width:300px;
+}
+
+.content .invitaciones .tabla_invitaciones TD{
+  	width:135px;
+}
+
+.content .invitaciones H2 {
+	font-family: Arial;
+	color:#c2c2c2;
+	font-size:2em;
+	text-decoration:none;
+	margin-left:5px;	
+	margin-right:10px;
+}
+
+.content .invitaciones H3 {
+	font-family: Arial;
+	color:#3d4432;
+	font-size:1.7em;
+	text-decoration:none;
+	margin-left:5px;	
+	margin-right:10px;
+}
+
+.content .invitaciones H4 {
+	font-family: Arial;
+	color:#3d4432;
+	font-size:1.4em;
+	text-decoration:none;
+	margin-left:5px;	
+	margin-right:10px;
+}
+
+
+.content .eventos H2 {
+	font-family: Arial;
+	color:#c2c2c2;
+	font-size:2em;
+	text-decoration:none;
+	margin-left:5px;	
+	margin-right:10px;
+}
+
+.content .eventos H3 {
+	font-family: Arial;
+	color:#3d4432;
+	font-size:1.7em;
+	text-decoration:none;
+	margin-left:5px;	
+	margin-right:10px;
+}
+
+.content .eventos H4 {
+	font-family: Arial;
+	color:#3d4432;
+	font-size:1.4em;
+	text-decoration:none;
+	margin-left:5px;	
+	margin-right:10px;
+}
+
+
+.footer .foot.desc {
+	width:968px;
+	height:51px;
+	margin-bottom:0px;
+}
+
+.footer .foot.desc .left , .footer .foot.desc .right{
+	height:51px;
+	width:9px;
+	background-repeat:no-repeat;
+	float:left;
+	margin-top:0px;
+}
+
+.footer .foot.desc .left {background-image:url(../img/bg/foot-left.png);
+	margin-left:5px;}
+.footer .foot.desc .right {background-image:url(../img/bg/foot-right.png);}
+
+.footer .foot.desc .middle {
+	background-image:url(../img/bg/foot-bg.png);
+	background-repeat:repeat-x;
+	height:51px;
+	width:940px;
+	float:left;
+	margin-top:0px;
+	text-align:center;
+}
+
+.footer .foot.desc .middle label {
+	font-family: 'MuseoSlab500', Arial;
+	color:#666666;
+	font-size:1.4em;
+	text-decoration:none;
+}
+
+
+.content .crear_evento .textbox {
+	font-family: Arial;
+	color:#c2c2c2;
+	font-size:1.4em;
+	text-decoration:none;
+	margin-top:10px;
+	margin-left:5px;	
+	margin-right:10px;	
+	font-weight:100;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-style:solid;
+  	border-width:1px; 
+  	height: 25px;
+  	width:252px;
+  	text-margin-left: 10px;
+}
+
+.content .crear_evento H1 {
+	font-family: 'MuseoSlab500', Arial;
+	color:#93ba5e;
+	font-size:2.5em;
+	text-decoration:none;	
+	margin-left:5px;	
+	margin-right:10px;
+	font-weight:100;
+}
+
+.content .crear_evento H2 {
+	font-family: Arial;
+	color:#c2c2c2;
+	font-size:1.7em;
+	text-decoration:none;
+	margin-left:45px;	
+	margin-right:10px;
+}
+
+.content .crear_evento .button {
+	height: 25px;
+  	width:252px;
+	color:#c2c2c2;
+}
+
+.content .crear_contacto .textbox {
+	font-family: Arial;
+	color:#c2c2c2;
+	font-size:1.4em;
+	text-decoration:none;
+	margin-top:10px;
+	margin-left:5px;	
+	margin-right:10px;	
+	font-weight:100;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-style:solid;
+  	border-width:1px; 
+  	height: 25px;
+  	width:252px;
+  	text-margin-left: 10px;
+}
+
+.content .crear_contacto H1 {
+	font-family: 'MuseoSlab500', Arial;
+	color:#93ba5e;
+	font-size:2.5em;
+	text-decoration:none;	
+	margin-left:5px;	
+	margin-right:10px;
+	font-weight:100;
+}
+
+.content .crear_contacto H2 {
+	font-family: Arial;
+	color:#c2c2c2;
+	font-size:1.7em;
+	text-decoration:none;
+	margin-left:45px;	
+	margin-right:10px;
+}
+
+.content .crear_contacto .button {
+	height: 25px;
+  	width:252px;
+	color:#c2c2c2;
+	margin-top:10px;
+}
+
+.content .contactos H2 {
+	font-family: Arial;
+	color:#c2c2c2;
+	font-size:2em;
+	text-decoration:none;
+	margin-left:5px;	
+	margin-right:10px;
+}
+
+.content .contactos H3 {
+	font-family: Arial;
+	color:#3d4432;
+	font-size:1.7em;
+	text-decoration:none;
+	margin-left:5px;	
+	margin-right:10px;
+}
+
+.content .contactos H4 {
+	font-family: Arial;
+	color:#3d4432;
+	font-size:1.4em;
+	text-decoration:none;
+	margin-left:5px;	
+	margin-right:10px;
+}
+
+.content .contactos .tabla_invitaciones {
+  	
+}
+
+.content .contactos .tabla_invitaciones TR:first-child{
+  	background-color:#93ba5e;
+}
+
+.content .asignar_eventos_invitar .textbox {
+	font-family: Arial;
+	color:#c2c2c2;
+	font-size:1.4em;
+	text-decoration:none;
+	margin-top:10px;
+	margin-left:5px;	
+	margin-right:10px;	
+	font-weight:100;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-style:solid;
+  	border-width:1px; 
+  	height: 25px;
+  	width:252px;
+  	text-margin-left: 10px;
+}
+
+.content .asignar_eventos_invitar H1 {
+	font-family: 'MuseoSlab500', Arial;
+	color:#93ba5e;
+	font-size:2.5em;
+	text-decoration:none;	
+	margin-left:5px;	
+	margin-right:10px;
+	font-weight:100;
+}
+
+.content .asignar_eventos_invitar H2 {
+	font-family: Arial;
+	color:#c2c2c2;
+	font-size:1.7em;
+	text-decoration:none;
+	margin-left:45px;	
+	margin-right:10px;
+}
+
+.content .asignar_eventos_invitar .button {
+	height: 25px;
+  	width:252px;
+	color:#c2c2c2;
+	margin-top:10px;
+}
+
+
+
+.push {
+	height: 51px;
+}
+
+.wrapper{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -51px;
+	
+}
+

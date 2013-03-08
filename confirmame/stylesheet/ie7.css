@@ -1,0 +1,4 @@
+@charset "utf-8";
+
+html { overflow: auto } /* IMPORTANTE: Evita la aparicin de la barra de desplazamiento */
+
